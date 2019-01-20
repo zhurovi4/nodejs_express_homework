@@ -1,0 +1,136 @@
+{  
+    "status":"ok",
+    "totalResults":10,
+    "articles":[  
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Megan Rose Dickey",
+          "title":"Thanks to Hulu, Disney lost $580 million last fiscal year",
+          "description":"The streaming media business is tough. Disney, which has a 30 percent stake Hulu, saw losses of $580 million last fiscal year, according to an SEC filing. This was, the SEC filing states, “primarily due to a higher loss from our investment in Hulu, partially …",
+          "url":"https://techcrunch.com/2019/01/20/thanks-to-hulu-disney-lost-580-million-last-fiscal-year/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2016/11/livetvhulu.png?w=600",
+          "publishedAt":"2019-01-20T19:00:18Z",
+          "content":"The streaming media business is tough. Disney, which has a 30 percent stake Hulu, saw losses of $580 million last fiscal year, according to an SEC filing. This was, the SEC filing states, “primarily due to a higher loss from our investment in Hulu, partially … [+665 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Megan Rose Dickey",
+          "title":"Uber is exploring autonomous bikes and scooters",
+          "description":"Uber is looking to integrate autonomous technology into its bike and scooter-share programs. Details are scarce, but according to 3D Robotics CEO Chris Anderson, who said Uber announced this at a DIY Robotics event over the weekend, the division will live ins…",
+          "url":"https://techcrunch.com/2019/01/20/uber-is-exploring-autonomous-bikes-and-scooters/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2018/01/jump_bike_lifestyle_downtube_01_img_0636.jpg?w=597",
+          "publishedAt":"2019-01-20T18:40:13Z",
+          "content":"Uber is looking to integrate autonomous technology into its bike and scooter-share programs. Details are scarce, but according to 3D Robotics CEO Chris Anderson, who said Uber announced this at a DIY Robotics event over the weekend, the division will live ins… [+1912 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Josh Constine",
+          "title":"Facebook launches petition feature, its next battlefield",
+          "description":"Gather a mob and Facebook will now let you make political demands. Tomorrow Facebook will encounter a slew of fresh complexities with the launch of Community Actions, its News Feed petition feature. Community Actions could unite neighbors to request change fr…",
+          "url":"https://techcrunch.com/2019/01/20/facebook-community-actions/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2019/01/Facebook-Community-Actions.png?w=753",
+          "publishedAt":"2019-01-20T18:21:53Z",
+          "content":"Gather a mob and Facebook will now let you make political demands. Tomorrow Facebook will encounter a slew of fresh complexities with the launch of Community Actions, its News Feed petition feature. Community Actions could unite neighbors to request change fr… [+5595 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Holden Page",
+          "title":"The AI market is growing, but how quickly is tough to pin down",
+          "description":"If you work in tech, you’ve heard about AI: how it’s going to replace us, whether it’s over-hyped or not and which nations will leverage it. Our interest? How much money is going into startups?",
+          "url":"https://techcrunch.com/2019/01/20/the-ai-market-is-growing-but-how-quickly-is-tough-to-pin-down/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2016/09/robocash.jpg?w=566",
+          "publishedAt":"2019-01-20T18:10:16Z",
+          "content":"If you work in tech, youve heard about artificial intelligence: how its going to replace us, whether its over-hyped or not and which nations will leverage it to prevent, or instigate, war. Our editorial bent is more clear-cut: How much money is going into sta… [+3881 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Mike Butcher",
+          "title":"Stung by criticism, Facebook's Sandberg outlines new plans to tackle misinformation",
+          "description":"Stung by criticism of its widely reported role as a platform capable of spreading disinformation and being used by state actors to skew democratic elections, Facebook’s COO Sheryl Sandberg unveiled five new ways the company would be addressing these issues at…",
+          "url":"https://techcrunch.com/2019/01/20/stung-by-criticism-facebooks-sandberg-outlines-new-plans-to-tackle-misinformation/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2018/11/GettyImages-1027118576.jpeg?w=600",
+          "publishedAt":"2019-01-20T15:32:08Z",
+          "content":"Stung by criticism of its widely reported role as a platform capable of spreading disinformation and being used by state actors to skew democratic elections, Facebooks COO Sheryl Sandberg unveiled five new ways the company would be addressing these issues at … [+4446 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Jon Evans",
+          "title":"Technology's dark forest",
+          "description":"We used to be such optimists. Technology would bring us a world of wealth in harmony with the environment, and even bring us new worlds. The Internet would erase national boundaries, replace gatekeepers with a universal opportunity for free expression, and br…",
+          "url":"https://techcrunch.com/2019/01/20/technologys-dark-forest/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2019/01/dark-forest.jpg?w=264",
+          "publishedAt":"2019-01-20T14:00:52Z",
+          "content":"We used to be such optimists. Technology would bring us a world of wealth in harmony with the environment, and even bring us new worlds. The Internet would erase national boundaries, replace gatekeepers with a universal opportunity for free expression, and br… [+6056 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Galen Moore",
+          "title":"The social layer is ironically key to Bitcoin's security",
+          "description":"A funny thing happened in the second half of 2018. At some moment, all the people active in crypto looked around and realized there weren’t very many of us. The friends we’d convinced during the last holiday season were no longer speaking to us. They had stop…",
+          "url":"https://techcrunch.com/2019/01/19/bitcoin-social-layer/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2019/01/GettyImages-700711715.jpg?w=599",
+          "publishedAt":"2019-01-19T19:17:01Z",
+          "content":"A funny thing happened in the second half of 2018. At some moment, all the people active in crypto looked around and realized there werent very many of us. The friends wed convinced during the last holiday season were no longer speaking to us. They had stoppe… [+5885 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Arman Tabatabai",
+          "title":"TechCrunch Conversations: Direct listings",
+          "description":"Last April, Spotify surprised Wall Street bankers by choosing to go public through a direct listing process rather than through a traditional IPO. Instead of issuing new shares, the company simply sold existing shares held by insiders, employees and investors…",
+          "url":"https://techcrunch.com/2019/01/19/direct-listings/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2019/01/GettyImages-941398386.jpg?w=600",
+          "publishedAt":"2019-01-19T19:07:25Z",
+          "content":"Last April, Spotify surprised Wall Street bankers by choosing to go public through a direct listing process rather than through a traditional IPO. Instead of issuing new shares, the company simply sold existing shares held by insiders, employees and investors… [+15249 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Jason Rowley",
+          "title":"Following a record year, Illinois startups kick off 2019 on a strong foot",
+          "description":"Illinois’s startup market in 2018 was very strong, and it’s not slowing down. Let’s take a quick look at the state of venture in the Land of Lincoln.",
+          "url":"https://techcrunch.com/2019/01/19/following-a-record-year-illinois-startups-kick-off-2019-on-a-strong-foot/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2015/10/shutterstock_194216315.jpg?w=589",
+          "publishedAt":"2019-01-19T17:09:10Z",
+          "content":"More posts by this contributor Illinoiss startup market in 2018 was very strong, and its not slowing down as we settle into 2019. Theres already almost $100 million in new VC funding announced, so lets take a quick look at the state of venture in the Land of … [+2952 chars]"
+       },
+       {  
+          "source":{  
+             "id":"techcrunch",
+             "name":"TechCrunch"
+          },
+          "author":"Brian Heater",
+          "title":"Watch builders construct a life-size Chevy truck with 300,000 LEGO bricks",
+          "description":"Behold, the LEGO Chevrolet Silverado. The full-size truck is basically a giant ad for Chevy and the new LEGO Movie, which is due out in February. Apparently they have to fight Duplo blocks from outer space. No, seriously, that’s the plot. Anyway, the 2019 Sil…",
+          "url":"https://techcrunch.com/2019/01/19/watch-builders-construct-a-life-size-chevy-truck-with-300000-lego-bricks/",
+          "urlToImage":"https://techcrunch.com/wp-content/uploads/2019/01/Screen-Shot-2019-01-18-at-1.07.11-PM.png?w=764",
+          "publishedAt":"2019-01-19T13:30:56Z",
+          "content":"Behold, the LEGO Chevrolet Silverado. The full-size truck is basically a giant ad for Chevy and the new LEGO Movie, which is due out in February. Apparently they have to fight Duplo blocks from outer space. No, seriously, thats the plot. Anyway, the 2019 Silv… [+417 chars]"
+       }
+    ]
+ }
