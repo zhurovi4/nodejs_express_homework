@@ -3,7 +3,8 @@ const indexRouter = require('./routes/index');
 const newsRouter = require('./routes/news');
 const app = express();
 const path = require('path');
-const bodyParser = require('body-parser');
+const errorHandler = require('./errorHandlers');
+
 
 app.listen(8000);
 
@@ -13,18 +14,6 @@ function logErrors(err, req, res, next) {
     next(err);
 }
 
-function clientErrorHandler(err, req, res, next) {
-    if (req.xhr) {
-      res.status(500).send({ error: 'Something failed!' });
-    } else {
-      next(err);
-    }
-  }
-  
-function errorHandler(err, req, res, next) {
-    res.status(500);
-    res.render('error', { error: err });
-}
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
@@ -46,13 +35,13 @@ app.put('/source/123', function(req, res) {
 });
 
 app.delete('/source/567', function(req, res) {
-    res.send('You are trying to delete news with');
+    res.send('You are trying to delete news');
 });
 
 
 app.use(logErrors);
-app.use(clientErrorHandler);
-app.use(errorHandler);
+app.use(errorHandler.clientErrorHandler);
+app.use(errorHandler.errorHandler);
 
 
 
