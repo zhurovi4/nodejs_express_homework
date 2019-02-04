@@ -38,6 +38,9 @@ app.delete('/source/567', function(req, res) {
     res.send('You are trying to delete news');
 });
 
+app.get('/users', function(req, res) {
+    res.send(users);
+});
 
 app.use(logErrors);
 app.use(errorHandler.clientErrorHandler);

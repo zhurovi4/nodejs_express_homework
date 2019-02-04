@@ -1,5 +1,25 @@
-html
-  head
-    title= message
-  body
-    h1= message
+ection.insert
+    h3 Insert Data
+      |     
+      form(action='/insert', method='post')
+        .input
+          label(for='title') Title
+          |             
+          input#title(type='text', name='title')
+        |         
+        .input
+          label(for='content') Content
+          |             
+          textarea#content(name='content')
+        |         
+        .input
+          label(for='author') Author
+          |             
+          input#author(type='text', name='author')
+        |         
+        button(type='submit') INSERT
+
+
+
+
+
