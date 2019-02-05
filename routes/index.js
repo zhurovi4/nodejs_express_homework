@@ -11,14 +11,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Node.js Homework', message: 'Time to learn Node.js' });
 });
 
-router.get('/get-news', function(req, res, next) {
-  PostData.find()
-      .then(function(posts) {
-        console.log(posts);
-        res.render('index', {items: posts});
-      });
-});
-
 
 router.post('/insert', function(req, res, next) {
   var item = {
