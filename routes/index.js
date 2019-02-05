@@ -1,16 +1,10 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
-mongoose.connect('localhost:27017/test');
-const Schema = mongoose.Schema;
-
-let postSchema = new Schema({
-  title: {type: String, required: true},
-  content: String,
-  author: String
-}, {collection: 'post-data'})
-
-var PostData = mongoose.model('PostData', postSchema)
+const PostData = require('../models/news.model');
+mongoose.connect('mongodb://zhurovi4:zhura1982@ds223015.mlab.com:23015/vzhurovich', () => {
+  console.log('Connected to DB!');
+});
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -20,9 +14,11 @@ router.get('/', function(req, res, next) {
 router.get('/get-news', function(req, res, next) {
   PostData.find()
       .then(function(posts) {
+        console.log(posts);
         res.render('index', {items: posts});
       });
 });
+
 
 router.post('/insert', function(req, res, next) {
   var item = {
@@ -33,7 +29,6 @@ router.post('/insert', function(req, res, next) {
 
   var data = new PostData(item);
   data.save();
-
   res.redirect('/');
 });
 

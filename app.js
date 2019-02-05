@@ -6,14 +6,14 @@ const path = require('path');
 const errorHandler = require('./errorHandlers');
 
 
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.listen(8000);
-
 // error handlers.
 function logErrors(err, req, res, next) {
     console.error(err.stack);
     next(err);
 }
-
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
