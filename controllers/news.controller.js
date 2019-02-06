@@ -40,3 +40,10 @@ exports.post_delete = function (req, res) {
         res.send('Deleted successfully!');
     })
 };
+
+exports.posts_all = function (req, res) {
+    PostData.find({}, function(err, posts) {
+        if (err) return next(err);
+        res.send(posts);
+     });
+};

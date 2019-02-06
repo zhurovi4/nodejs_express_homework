@@ -9,6 +9,8 @@ const news_controller = require('../controllers/news.controller');
 router.get('/test', news_controller.test);
 module.exports = router;
 
+router.get('/all', news_controller.posts_all);
+
 router.post('/create', news_controller.post_create);
 
 router.get('/:id', news_controller.post_details);
