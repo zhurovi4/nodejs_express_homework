@@ -1,9 +1,5 @@
 const PostData = require('../models/news.model');
 
-exports.test = function (req, res) {
-    res.send('Test controller!');
-};
-
 exports.post_create = function (req, res) {
     let post = new PostData(
         {

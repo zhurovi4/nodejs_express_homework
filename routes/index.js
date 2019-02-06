@@ -11,17 +11,4 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Node.js Homework', message: 'Time to learn Node.js' });
 });
 
-
-router.post('/insert', function(req, res, next) {
-  var item = {
-    title: req.body.title,
-    content: req.body.content,
-    author: req.body.author
-  };
-
-  var data = new PostData(item);
-  data.save();
-  res.redirect('/');
-});
-
 module.exports = router;
